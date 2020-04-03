@@ -26,6 +26,10 @@ nav#navbar .navbar-brand img {
     width: 48px;
 }
 
+#langlinks a {
+    text-decoration: underline;
+}
+
 #live {
     width: 100%;
     max-width: 640px;

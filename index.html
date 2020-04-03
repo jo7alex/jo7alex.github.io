@@ -51,9 +51,9 @@
                     <a class="nav-link" href="#">Testimonies</a>
                 </li> -->
                 </ul>
-                <span class="navbar-text">
-                    <a href="javascript:void(0)" v-on:click="setLang('ta')">தமிழ்</a> |
-                    <a href="javascript:void(0)" v-on:click="setLang('en')">English</a>
+                <span class="navbar-text" id="langlinks">
+                    <a href="javascript:void(0)" v-bind:class="lang == 'ta' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('ta')">தமிழ்</a> |
+                    <a href="javascript:void(0)" v-bind:class="lang == 'en' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('en')">English</a>
                 </span>
             </div>
         </nav>
@@ -239,7 +239,7 @@
             <hr />
             <div class="row">
                 <div class="col-md-9">
-                    &copy; 2020 Harvest for Jesus ministries. All Rights Reserved.
+                    &copy; 2020 Harvest for Jesus Ministries. All Rights Reserved.
                 </div>
                 <div id="socialicons" class="col-md-3 text-right">
                     <!-- <a href="" target="_blank"><span class="icon-facebook"></span></a> -->
