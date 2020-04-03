@@ -1,138 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161586996-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161586996-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "UA-161586996-2");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-control" content="public" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="Harvest For Jesus Ministries." />
+    <meta name="keywords" content="minimal game, html5 game, svg game" />
+    <meta property="og:url" content="https://hfjministries.org" />
+    <meta property="og:title" content="Harvest For Jesus Ministries" />
+    <meta property="og:description" content="Harvest For Jesus Ministries." />
+    <title>Harvest For Jesus Ministries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/icomoon/style.css" />
+    <script defer src="/scripts/vue.min.js"></script>
+    <script defer src="/scripts/script.js"></script>
+</head>
 
-            gtag("config", "UA-161586996-2");
-        </script>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="Cache-control" content="public" />
-        <meta
-            name="viewport"
-            content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-        />
-        <meta name="description" content="Harvest For Jesus Ministries." />
-        <meta name="keywords" content="minimal game, html5 game, svg game" />
-        <meta property="og:url" content="https://hfjministries.org" />
-        <meta property="og:title" content="Harvest For Jesus Ministries" />
-        <meta property="og:description" content="Harvest For Jesus Ministries." />
-        <title>Harvest For Jesus Ministries</title>
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"
-        ></script>
-        <style>
-            section#live {
-                width: 100%;
-                max-width: 640px;
-                margin: 2rem auto;
-            }
+<body>
+    <section id="hfj-site">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/logo.svg" alt="Harvest For Jesus Ministries">
+            </a>
+            <div id="sitename" class="d-none d-sm-block" v-if="lang === 'en'">Harvest For Jesus Ministries</div>
+            <div id="sitename" class="d-none d-sm-block" v-if="lang === 'ta'">இயேசுவுக்கு அறுவடை ஊழியங்கள்</div>
 
-            section#intro {
-                width: 100%;
-                max-width: 768px;
-                margin: 2rem auto;
-                font-size: 1.2rem;
-                line-height: 1.5;
-            }
-
-            section#intro p {
-                margin: 1rem;
-            }
-
-            section#contact {
-                width: 100%;
-                max-width: 768px;
-                margin: 2rem auto;
-                background-color: #f8f7f3;
-                box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.07);
-            }
-
-            h1 {
-                font-size: 2rem;
-                font-family: "Courgette", cursive;
-                text-align: center;
-                padding: 1rem;
-                font-weight: bold;
-                color: #8f0508;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-                font-family: "Courgette", cursive;
-                text-align: left;
-                padding: 0.5rem 0px;
-                font-weight: bold;
-                color: #8f0508;
-            }
-            .ytlink {
-                width: 320px;
-                display: block;
-                margin: auto;
-            }
-            .ytlink img {
-                width: 100%;
-            }
-
-            .d-block.w-100 {
-                height: 80vh;
-                object-fit: cover;
-            }
-
-            .blockquote {
-                border-left: 2px solid #34495e;
-                color: #34495e;
-                margin: 1rem;
-                padding: 0px 1rem;
-                font-style: italic;
-            }
-
-            .pad {
-                padding: 1rem;
-                box-sizing: border-box;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>Harvest For Jesus Ministries</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonies</a>
+                </li> -->
+                </ul>
+                <span class="navbar-text">
+                    <a href="javascript:void(0)" v-on:click="setLang('ta')">தமிழ்</a> |
+                    <a href="javascript:void(0)" v-on:click="setLang('en')">English</a>
+                </span>
+            </div>
+        </nav>
+        <!-- <h1>
+        <div>
+            <img src="/assets/logo.svg" alt="Harvest for Jesus" title="Harvest for Jesus" />
+        </div>
+        Harvest For Jesus Ministries
+    </h1> -->
         <section id="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="pic-1.jpg" class="d-block w-100" alt="..." />
+                        <img src="/photos/pic-1.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="pic-2.jpg" class="d-block w-100" alt="..." />
+                        <img src="/photos/pic-2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="pic-3.jpg" class="d-block w-100" alt="..." />
+                        <img src="/photos/pic-3.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -146,101 +87,168 @@
             </div>
         </section>
 
-        <section id="live">
-            <h1>ஞாயிறு ஆராதனை</h1>
-            <!-- <a class="ytlink" href="https://youtu.be/NK3jm9EJ3E0"
-                ><img src="/yt-live-button.png" alt="Live on Youtube"
-            /></a>
-            <br /> -->
-            <a class="ytlink" href="https://www.youtube.com/channel/UCt3MnMMw8g1g-JxXCQyCy6g"
-                ><img src="/yt-button.png" alt="Live on Youtube"
-            /></a>
-        </section>
-
-        <section id="intro">
-            <h1>இயேசுவுக்கு அறுவடை ஊழியத்தின் தரிசனமும், <br />அதின் வரலாறும்</h1>
-            <p>
-                ஊழியத்தின் தலைமை போதகர் <strong>Rev. A. பெஞ்சமின் மைக்கேல் ராஜ்</strong> என்னும் நான் 8 மாத குழந்தையாக
-                இருந்த போது கிணற்றில் விழுந்து விட, என்னுடைய தாயார் அவர்கள் “இயேசுவே என் பிள்ளையின் உயிரை மீட்டூக்
-                கொடுத்தால் என் மகனை உம்முடைய ஊழியத்திற்கு ஒப்புக் கொடுப்பேன்” என்று ஜெபித்தார்கள். உடனே என்னை தேவன்
-                காப்பாற்றவே என் தாயார் என்னை ஊழியத்திற்கு ஒப்புக் கொடுத்தார்கள்.
-            </p>
-            <p>
-                என்றாலும் என்னுடைய வாலிப வயதில் தேவனுக்கும் எனக்கும் உறவு இல்லாமலே இருந்தேன். பாவ வழிகளிலும் செல்ல
-                துணிந்தேன். ஆனால் பள்ளி படிப்பை முடித்த உடன் என்னுடைய தாயார் தான் செய்த பொருத்தனையின் படியே என்னை வேதாகம
-                கல்லூரியில் சேர்த்தார்கள். அங்கும் தேவனுக்கும் எனக்கும் உறவு இல்லாமலே கட்டாயத்தின் பேரில் படித்துக்
-                கொண்டிருந்தேன்.
-            </p>
-            <p>
-                கல்லூரியில் ஒரு நாள் நான் வாழும் வாழ்க்கை அர்த்தமற்றதாய் இருக்கவே இயேசு கிறிஸ்துவிடம் முதல் முதலாய் மனம்
-                திறந்துப் பேச துவங்கினேன். அந்த நிமிடமே இயேசு கிறிஸ்துவின் அன்பு என்னை தொட்டது. பாவ அறிக்கை செய்து
-                இரட்ச்சிப்பின் சந்தோஷத்தைப் பெற்றுக் கொண்டேன். ஆனாலும் பரிசுத்த ஆவியின் அபிஷேகத்தை பெறவில்லை.
-            </p>
-            <p>
-                1982 ஆம் வருடம் திருமணம் ஆனது. 1983 ஆம் வருடம் பரிசுத்த ஆவியின் அபிஷேகத்தை பெற்றுக்கொண்டேன். 6 வருடங்கள்
-                குழந்தை பாக்கியம் இல்லாததால் ஒவ்வொரு கிராமங்களாகச் சென்று தேவ சித்ததின்படி ஊழியங்களை செய்து வந்தோம்.
-            </p>
-            <p>
-                1989 ஆம் வருடம் தேவன் குழந்தையைக் கொடுத்தார். அப்போது தேவன் மத்தேயு 9 ஆம் அதிகாரம் 36, 37, 38
-            </p>
-            <blockquote class="blockquote">
-                36. அவர், திரளான ஜனங்களைக் கண்டபொழுது, அவர்கள் மேய்ப்பனில்லாத ஆடுகளைப்போலத் தொய்ந்துபோனவர்களும்
-                சிதறடிக்கப்பட்டவர்களுமாய் இருந்தபடியால், அவர்கள்மேல் மனதுருகி,
-            </blockquote>
-            <blockquote class="blockquote">
-                37. தம்முடைய சீஷர்களை நோக்கி: அறுப்பு மிகுதி வேலையாட்களோ கொஞ்சம்;
-            </blockquote>
-            <blockquote class="blockquote">
-                38. ஆதலால், அறுப்புக்கு எஜமான் (அறுவடையின் எஜமான்) தமது அறுப்புக்கு வேலையாட்களை அனுப்பும்படி அவரை
-                வேண்டிக்கொள்ளுங்கள் என்றார்.
-            </blockquote>
-            <p>என்ற வசனங்களை கூறி,</p>
-            <p>
-                “என்னைப் பற்றி அறியாத என் ஜனங்களுக்கு என்னைப் பற்றி சொல்ல வேண்டும்” என்ற தரிசனத்தைக் கொடுத்து
-                கிருஷ்ணகிரி மாவட்டத்தில் உள்ள ஆனந்தூர் என்ற சிறிய கிராமத்தில் 1990 ஆம் வருடம், ஒரு சிறு சபையை ஸ்தாபிக்க
-                கிருபைச் செய்தார்.
-            </p>
-            <p>
-                தேவனுடைய பெரியக் கிருபையினால் 2017 ஆம் வருடம் பெரிய ஆலயத்தைக் கட்டி, தேவனுக்காக, தீர்க்கதரிசி.
-                வின்சென்ட் செல்வ குமார் அவர்களால் பிரதிஷ்ட்டை செய்தோம்.
-            </p>
-            <p>
-                தேவனுடைய தரிசனத்தின் படி இப்பொழுது 80 தேவனை அறியாதக் குடும்பங்கள் தேவனை அறிந்து ஞானஸ்நானம் பெற்று
-                இயேசுவுக்கு அறுவடை ஊழியத்தில் விசுவாச குடும்பங்களாய் இருக்கிறார்கள்.
-            </p>
-            <p>இரண்டு கிளை சபைகளும் நிறுவ தேவன் கிருபைச் செய்தார்.</p>
-            <p>
-                தொடர்ந்து வருகை வரை ஆத்துமாக்களை தேவனுக்காக அறுவடைச் செய்து கொண்டே இருப்பதே இயேசுவுக்கு அறுவடை
-                ஊழியத்தின் தரிசனம்.
-            </p>
-            <hr />
-        </section>
-
-        <section id="contact">
+        <section class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="pad">
-                        <h2><b>Contact : </b></h2>
-                        <div>
-                            <strong>Rev. A. பெஞ்சமின் மைக்கேல்ராஜ்</strong><br />
-                            04341-255205, 255278<br />
-                            +91-9443390996, +91-7904989275<br />
-                            +91-9489144165<br />
+                <div class="col-md-9">
+                    <main id="intro">
+                        <div v-if="lang === 'ta'">
+                            <h2 class="text-center">இயேசுவுக்கு அறுவடை ஊழியத்தின் தரிசனம்</h2>
+                            <p>
+                                <strong>மத்தேயு 9 ஆம் அதிகாரம் 36, 37, 38</strong>
+                            </p>
+                            <blockquote class="blockquote">
+                                36. அவர், திரளான ஜனங்களைக் கண்டபொழுது, அவர்கள் மேய்ப்பனில்லாத ஆடுகளைப்போலத் தொய்ந்துபோனவர்களும்
+                                சிதறடிக்கப்பட்டவர்களுமாய் இருந்தபடியால், அவர்கள்மேல் மனதுருகி,
+                            </blockquote>
+                            <blockquote class="blockquote">
+                                37. தம்முடைய சீஷர்களை நோக்கி: அறுப்பு மிகுதி வேலையாட்களோ கொஞ்சம்;
+                            </blockquote>
+                            <blockquote class="blockquote">
+                                38. ஆதலால், அறுப்புக்கு எஜமான் (அறுவடையின் எஜமான்) தமது அறுப்புக்கு வேலையாட்களை அனுப்பும்படி அவரை
+                                வேண்டிக்கொள்ளுங்கள் என்றார்.
+                            </blockquote>
+                            <p>என்ற வசனங்களை ஆதரமாகக் கொண்டு, <strong>“தேவனுடைய ராஜ்யத்தின் சுவிசேஷத்தை இதுவரை இயேசு கிறிஸ்துவின் அன்பைப் பற்றி அறியாதமக்களுக்கு அறிவிப்பதே”</strong> ஆகும்.
+                            </p>
+                            <p>
+                                இந்த தரிசனத்திற்க்கேற்ப இயேசு கிறிஸ்துவை அறியாத மக்களுக்கு இயேசுவின் அன்பை அறிவிப்பதை தேவன் <strong>போதகர். பெஞ்சமின் மைக்கேல் ராஜ்</strong> அவர்களுக்கு ஆத்தும பாரமாக ஏற்ப்படுதினார். தேவனுடைய கிருபையினால் கிருஷ்ணகிரி மற்றும் தர்மபுரி ஆகிய மாவட்டங்களை சுற்றி உள்ள கிராமங்களில் இயேசுவை அறியாத மக்களுக்கு சுவிசேஷம் பிரசங்கிக்கப் பட்டு அநேகர் இயேசுவை தங்கள் சொந்த இரட்சகராக ஏற்றுக்கொண்டு பரிசுத்தமாகி ஞானஸ்நானம் பெற்று இயேசுவுக்கு அறுவடை ஊழியத்தில் விசுவாச குடும்பங்களாய் இருக்கிறார்கள்.
+                            </p>
+                            <p>
+                                தொடர்ந்து வருகை வரை ஆத்துமாக்களை தேவனுக்காக அறுவடை செய்து இயேசுவின் மந்தையில் சேர்த்துக் கொண்டே இருப்பதே இயேசுவுக்கு அறுவடை ஊழியத்தின் தரிசனம்.
+                            </p>
                         </div>
-                    </div>
+                        <div v-if="lang === 'en'">
+                            <h2 class="text-center">VISION OF HARVEST FOR JESUS MINISTRIES</h2>
+                            <p> Harvest for Jesus Ministries was started with a vision <strong>“To preach the Gospel of
+                                    Lord’s Kingdom to the people who don’t know about Christ and his Love”</strong> based on the verses in <strong><i>Matthew Chapter 9 : 36, 37 and 38</i></strong>
+                            </p>
+                            <blockquote class="blockquote">
+                                36. When he saw the crowds, he had compassion on them, because they were harassed and helpless, like sheep without a shepherd.
+                            </blockquote>
+                            <blockquote class="blockquote">
+                                37. Then he said to his disciples, “The harvest is plentiful but the workers are few.
+                            </blockquote>
+                            <blockquote class="blockquote">
+                                38. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.
+                            </blockquote>
+                            <p>According to the vision, God has filled <Strong>Pastor. Rev. A. Benjamine Michael Raj</Strong> with a burden to preach the gospel to the people, who have never heard about Christ’s Love. By the pure grace of God, the gospel is preached to the people in the surrounding villages of Krishnagiri and Dharmapuri districts. Many people who do not know Jesus Christ have now accepted Jesus Christ as their Saviour and also getting cleansed, baptized and brought into the congregation of Harvest for
+                                Jesus Ministries.
+                            </p>
+                            <p>Till Jesus comes, souls will be harvested and brought into the Herd of Christ.</p>
+                        </div>
+
+
+                    </main>
                 </div>
-                <div class="col-sm-6">
-                    <div class="pad">
-                        <h2><b>Address : </b></h2>
-                        <strong>இயேசுவுக்கு அறுவடை ஊழியங்கள்</strong>
-                        <div>கிறிஸ்து நாதர் ஆலயம்</div>
-                        <div>
-                            ஆனந்தூர், கல்லாவி (வழி), கிருஷ்ணகிரி (மாவட்டம்), <br />தமிழ்நாடு, தென் இந்தியா<br />
-                            PIN: 635304
+
+
+                <div class="col-md-3">
+
+                    <!-- <section id="live">
+                        <h3 style="margin-bottom: 10px;" v-if="lang=='ta'">ஞாயிறு ஆராதனை</h3>
+                        <h3 style="margin-bottom: 10px;" v-if="lang=='en'">Sunday service</h3>
+                        <a class="ytlink" href="https://youtu.be/NK3jm9EJ3E0"><img src="/assets/yt-live-button.png" alt="Live on Youtube" /></a>
+                    </section> -->
+                    <br />
+                    <section id="sermons">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 style="margin-bottom: 10px;" v-if="lang=='ta'">முந்திய ஆராதனைகள்</h4>
+                                <h4 style="margin-bottom: 10px;" v-if="lang=='en'">Past sermons</h4>
+                                <div class="list-group" v-if="lang=='ta'">
+                                    <a href="https://www.youtube.com/watch?v=5qaV0eSkuKg" target="_blank" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">ஞாயிறு ஆராதனை</h5>
+                                        </div>
+                                        <small>29 மார்ச் 2020</small>
+                                    </a>
+                                </div>
+                                <div class="list-group" v-if="lang=='en'">
+                                    <a href="https://www.youtube.com/watch?v=5qaV0eSkuKg" target="_blank" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Sunday service</h5>
+                                        </div>
+                                        <small>29 March 2020</small>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </section>
+
+
+                    <section id="contact" v-if="lang=='ta'">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="pad">
+                                    <h4 style="margin-bottom: 10px;">தொடர்புக்கு</h4>
+                                    <div>
+                                        <strong>Rev. A. பெஞ்சமின் மைக்கேல்ராஜ்</strong><br />
+                                        04341-255205, 255278<br />
+                                        +91-9443390996, <br /> +91-7904989275,<br />
+                                        +91-9489144165<br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="pad">
+                                    <h4 style="margin-bottom: 10px;">முகவரி</h4>
+                                    <strong>இயேசுவுக்கு அறுவடை ஊழியங்கள்</strong>
+                                    <div>கிறிஸ்து நாதர் ஆலயம்</div>
+                                    <div>
+                                        ஆனந்தூர், கல்லாவி (வழி), கிருஷ்ணகிரி (மாவட்டம்), <br />தமிழ்நாடு, தென் இந்தியா<br />
+                                        PIN: 635304
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contact" v-if="lang=='en'">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="pad">
+                                    <h4 style="margin-bottom: 10px;">Contact</h4>
+                                    <div>
+                                        <strong>Rev. A. Benjamine Michael Raj</strong><br />
+                                        04341-255205, 255278<br />
+                                        +91-9443390996, <br /> +91-7904989275,<br />
+                                        +91-9489144165<br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="pad">
+                                    <h4 style="margin-bottom: 10px;">Address</h4>
+                                    <strong>Harvest for Jesus Ministries</strong>
+                                    <div>Christ church,</div>
+                                    <div>
+                                        Church street, Anandur, Kallavi (via), Krishnagiri (district), <br />Tamil Nadu, South India<br />
+                                        PIN: 635304
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </section>
-    </body>
+        <section class="container">
+            <hr />
+            <div class="row">
+                <div class="col-md-9">
+                    &copy; 2020 Harvest for Jesus ministries. All Rights Reserved.
+                </div>
+                <div id="socialicons" class="col-md-3 text-right">
+                    <!-- <a href="" target="_blank"><span class="icon-facebook"></span></a> -->
+                    <a href="https://www.youtube.com/channel/UCt3MnMMw8g1g-JxXCQyCy6g" target="_blank"><span class="icon-youtube"></span></a>
+                </div>
+            </div>
+            <br />
+        </section>
+    </section>
+</body>
+
 </html>
