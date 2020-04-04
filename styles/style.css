@@ -101,3 +101,7 @@ nav#navbar .navbar-brand img {
 #socialicons .icon-facebook {
     font-size: 1.4rem;
 }
+
+#testimonies .media img {
+    width: 144px;
+}

@@ -19,11 +19,10 @@
     <meta property="og:title" content="Harvest For Jesus Ministries" />
     <meta property="og:description" content="Harvest For Jesus Ministries." />
     <title>Harvest For Jesus Ministries</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/bootstrap.min.css" />
+    <script src="/scripts/jquery-3.4.1.slim.min.js"></script>
+    <script src="/scripts/popper.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/icomoon/style.css" />
     <script defer src="/scripts/vue.min.js"></script>
@@ -44,12 +43,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
-                    <!-- <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonies</a>
-                </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/" v-if="lang === 'ta'">முகப்புப் பக்கம்</a>
+                        <a class="nav-link" href="/" v-if="lang === 'en'">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/testimonies.html" v-if="lang === 'ta'">சாட்சிகள்</a>
+                        <a class="nav-link" href="/testimonies.html" v-if="lang === 'en'">Testimonies</a>
+                    </li>
                 </ul>
                 <span class="navbar-text" id="langlinks">
                     <a href="javascript:void(0)" v-bind:class="lang == 'ta' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('ta')">தமிழ்</a> |
@@ -235,19 +236,19 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <footer class="container">
             <hr />
             <div class="row">
                 <div class="col-md-9">
                     &copy; 2020 Harvest for Jesus Ministries. All Rights Reserved.
                 </div>
                 <div id="socialicons" class="col-md-3 text-right">
-                    <!-- <a href="" target="_blank"><span class="icon-facebook"></span></a> -->
+                    <a href="https://www.facebook.com/HFJCHURCH/" target="_blank"><span class="icon-facebook"></span></a>
                     <a href="https://www.youtube.com/channel/UCt3MnMMw8g1g-JxXCQyCy6g" target="_blank"><span class="icon-youtube"></span></a>
                 </div>
             </div>
             <br />
-        </section>
+        </footer>
     </section>
 </body>
 
