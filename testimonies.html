@@ -76,8 +76,9 @@
                             <div v-bind:id="testimony.id" class="collapse" data-parent="#testimonies">
                                 <div class="card-body">
                                     <div class="media">
-                                        <img v-bind:src="'/photos/testimonies/'+testimony.photo" class="mr-3" v-bind:alt="testimony.id">
-                                        <div class="media-body align-self-center" v-html="testimony.content[lang]">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-3 text-center"><img v-bind:src="'/photos/testimonies/'+testimony.photo" class="mr-3" v-bind:alt="testimony.id"></div>
+                                            <div class="media-body align-self-center col-md-10 col-sm-9" v-html="testimony.content[lang]"></div>
                                         </div>
                                     </div>
                                 </div>

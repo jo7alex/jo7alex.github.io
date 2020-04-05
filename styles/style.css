@@ -103,5 +103,6 @@ nav#navbar .navbar-brand img {
 }
 
 #testimonies .media img {
-    width: 144px;
+    width: 100%;
+    max-width: 144px;
 }
