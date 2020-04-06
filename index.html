@@ -149,36 +149,12 @@
 							<div class="col-12">
 								<h4 style="margin-bottom: 10px;" v-if="lang=='ta'">கடந்த ஆராதனைகள்</h4>
 								<h4 style="margin-bottom: 10px;" v-if="lang=='en'">Past sermons</h4>
-								<div class="list-group" v-if="lang=='ta'">
-									<a href="https://www.youtube.com/watch?v=h5xlDmhiM5E" target="_blank" class="list-group-item list-group-item-action">
+								<div class="list-group">
+									<a v-bind:href="'https://www.youtube.com/watch?v='+pastService.youtubeKey" target="_blank" class="list-group-item list-group-item-action" v-for="(pastService, i) in pastServices" v-bind:key="i">
 										<div class="d-flex w-100 justify-content-between">
-											<h5 class="mb-1">குருத்தோலை ஞாயிறு ஆராதனை</h5>
+											<h5 class="mb-1" v-html="pastService.title[lang]"></h5>
 										</div>
-										<small>5 ஏப்ரல் 2020</small>
-									</a>
-								</div>
-								<div class="list-group" v-if="lang=='en'">
-									<a href="https://www.youtube.com/watch?v=h5xlDmhiM5E" target="_blank" class="list-group-item list-group-item-action">
-										<div class="d-flex w-100 justify-content-between">
-											<h5 class="mb-1">Palm Sunday service</h5>
-										</div>
-										<small>5 April 2020</small>
-									</a>
-								</div>
-								<div class="list-group" v-if="lang=='ta'">
-									<a href="https://www.youtube.com/watch?v=NK3jm9EJ3E0" target="_blank" class="list-group-item list-group-item-action">
-										<div class="d-flex w-100 justify-content-between">
-											<h5 class="mb-1">ஞாயிறு ஆராதனை</h5>
-										</div>
-										<small>29 மார்ச் 2020</small>
-									</a>
-								</div>
-								<div class="list-group" v-if="lang=='en'">
-									<a href="https://www.youtube.com/watch?v=NK3jm9EJ3E0" target="_blank" class="list-group-item list-group-item-action">
-										<div class="d-flex w-100 justify-content-between">
-											<h5 class="mb-1">Sunday service</h5>
-										</div>
-										<small>29 March 2020</small>
+										<small v-html="pastService.date[lang]"></small>
 									</a>
 								</div>
 							</div>

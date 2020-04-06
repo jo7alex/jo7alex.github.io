@@ -53,13 +53,30 @@ const testimonies = [{
 		en: "I am Peter and my wife is Selvi. We got married in the year of 1985. We don’t have any children for more than 10 years. We went to many religious places and we did a lot of rituals, none of those helped. We went to many hospitals for treatment, but were upset to hear doctors say we cant get conceived. We also tried siddha medicines. But all our efforts were in vain. Then we came to know about Lord Jesus Christ by one of our relatives. He told that if we ask anything faithfully in Jesus name it will be given to us. So we started to pray with faith. We confessed our sins and got salvation. Since then my wife will be conceived, but she will get a nightmare of a serpent hissing and will cause a miscarriage. But we and our Pastor’s family prayed to God with faith. Seeing our tearful prayers God has given a girl child in the year of 1998 after 13 long years. After that, God also given us two more daughters. All my daughters have grown up and doing their higher studies in medical related courses. All Glory be to Jesus for answering our prayers.",
 		ta: "என் பெயர் பீட்டர். என் மனைவி பெயர் செல்வி. எங்களுக்கு 1985 ஆம் ஆண்டு திருமணம் ஆனது. எங்களுக்கு திருமணமாகி 10 வருடங்களுக்குமேல் குழந்தை இல்லை. பல இடங்களுக்கு சென்று பல பரிகாரங்கள் செய்தோம். பல மருத்துவமனைகளுக்கு சென்றோம். எங்களுக்கு குழந்தை பிறக்க வாய்ப்பே இல்லை என்றே கூறினார்கள் மருத்துவர்கள். கடுமையான சித்த மருத்துவங்களைப் பின் பற்றிப் பார்த்தும் பலன் இல்லை. இந்த சூழ்நிலையில் இயேசுவை விசுவாசித்தால் குழந்தை பிறக்கும் என்று என் உறவினர் மூலம் கேள்விப் பட்டு கடைசி நம்பிக்கையாக ஆனந்தூர் ஆலயத்திற்குச் சென்றோம். இயேசுவை எங்கள் உள்ளத்தில் ஏற்றுக் கொண்டு அறிக்கை செய்து இரட்சிக்கப்பட்டோம். அதன் பின் என் மனைவி கருவுறுவாள், பாம்பு சீறுவது போல் கனவு வரும், கரு கலைந்துவிடும். ஆனால் நாங்களும் போதகர் குடும்பமும் விசுவாசத்தை விடாமல் உறுதியாய் ஜெபித்தோம். எங்கள் கண்ணீர் ஜெபத்திற்கு தேவன் அற்புதமாக பதில் அளித்தார். 13 ஆண்டுகளுக்கு பிறகு 1998 ஆம் ஆண்டு ஒரு பெண் குழந்தையை கொடுத்தார். அதன் பிறகு இரண்டு பெண் குழந்தைகளையும் கொடுத்தார் தேவன். இப்போது என் மூன்று பிள்ளைகளும் மருத்துவ துறை சார்ந்த மேல் படிப்புகளில் படித்துக் கொண்டிருக்கிறார்கள். தேவன் என்னையும் என் குடும்பத்தையும் ஆசீர்வதித்திருக்கிறார். இயேசுவின் நாமம் மகிமைப்படட்டும்."
 	}
+}];
+
+const pastServices = [{
+	title: {
+		ta: "குருத்தோலை ஞாயிறு ஆராதனை",
+		en: "Palm Sunday service"
+	},
+	date: { en: "5 April 2020", ta: "5 ஏப்ரல் 2020" },
+	youtubeKey: "h5xlDmhiM5E"
+}, {
+	title: {
+		ta: "ஞாயிறு ஆராதனை",
+		en: "Sunday service"
+	},
+	date: { en: "29 March 2020", ta: "29 மார்ச் 2020" },
+	youtubeKey: "NK3jm9EJ3E0"
 }]
 
 const hfjLang = new Vue({
 	el: '#hfj-site',
 	data: {
 		lang: window.localStorage.lang || "ta",
-		testimonies: testimonies
+		testimonies,
+		pastServices
 	},
 	methods: {
 		setLang: function(lang) {
