@@ -10,6 +10,17 @@ const testimonies = [{
 		ta: "என் பெயர் ஜாசன். நான் 3 ஆண்டுகளுக்கு முன் இரவு தூங்க முடியாமல் மிகவும் அவதிப்பட்டேன். இரவு தூங்கும்போது திடிரென்று அலரிக்கொண்டு ஓடுவேன். நாட்கள் செல்ல செல்ல நான் தூங்காமல், எனக்கு மன அழுத்தம் வர துவங்கியது. இதன் இடையில் நான் ஒரு பழக்கடை வியாபாரம் ஆரம்பித்தேன். அதிலும் பெரிய நஷ்டம் ஏற்பட்டது. நான் தூக்கம் இல்லாதவனாய் மன நிம்மதி இழந்தவனாய் பித்து பிடித்தவனாய் வீட்டின் முன் அமர்ந்து இருக்கும் போது, ஒரு நாள் போதகர். பெஞ்சமின் எங்கள் ஊரில் வந்து இயேசு எல்லா பிரச்சனைகளில் இருந்தும் விடுதலை தருவார் என்று சொன்னது நினைவு வந்தது. உடனே என் தாயைக் கூட்டிக் கொண்டு, ஆனந்தூர் ஆலயத்திற்குச் சென்றேன். அங்கு போதகர் மற்றும் அவர் துணைவியார் எனக்காக ஜெபித்தார்கள். உடனே பல நாட்களாக சாப்பிட முடியாமல் இருந்த நான், நன்றாக சாப்பிட்டேன், நன்றாக தூங்கினேன். இயேசுவிடம் மனம் திறந்து பேசினேன். அவர் என் உள்ளத்தில் வந்தார். நானும் என் தாயாரும் இரட்ச்சிப்பைப் பெற்றுக் கொண்டோம். இப்போது நான் வேலை செய்கிறேன். பரிசுத்த ஆவியின் அபிஷேகத்தையும் அந்நிய பாஷை அடையாளத்தோடுப் பெற்றுக் கொண்டேன். தேவனுக்கே மகிமை உண்டாகட்டும்."
 	}
 }, {
+	id: "testimony-mosesponsingh",
+	title: {
+		en: "Moses Ponsingh - Jesus Christ saved me from a terrible road accident - 2018",
+		ta: "மோசஸ் பொன்சிங் - சாலை விபத்தில் இருந்து ஜீவனை இயேசு கிறிஸ்து மீட்டெடுத்தார் - 2018"
+	},
+	photo: "",
+	content: {
+		en: "<div style='text-align:center;'><iframe width='560' height='315' src='https://www.youtube.com/embed/O0JbdURKf-c' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+		ta: "<div style='text-align:center;'><iframe width='560' height='315' src='https://www.youtube.com/embed/O0JbdURKf-c' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>"
+	}
+}, {
 	id: "testimony-johnpeter",
 	title: {
 		en: "John Peter - God has delivered me from 25 years alcohol addiction - 2018",

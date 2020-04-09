@@ -2,107 +2,107 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161586996-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161586996-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag("js", new Date());
         gtag("config", "UA-161586996-2");
     </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Cache-control" content="public" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta name="description" content="Harvest For Jesus Ministries." />
-    <meta name="keywords" content="minimal game, html5 game, svg game" />
-    <meta property="og:url" content="https://hfjministries.org" />
-    <meta property="og:title" content="Harvest For Jesus Ministries" />
-    <meta property="og:description" content="Harvest For Jesus Ministries." />
-    <title>Harvest For Jesus Ministries</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/bootstrap.min.css" />
-    <script src="/scripts/jquery-3.4.1.slim.min.js"></script>
-    <script src="/scripts/popper.min.js"></script>
-    <script src="/scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/icomoon/style.css" />
-    <script defer src="/scripts/vue.min.js"></script>
-    <script defer src="/scripts/script.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-control" content="public" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="description" content="Harvest For Jesus Ministries." />
+	<meta name="keywords" content="minimal game, html5 game, svg game" />
+	<meta property="og:url" content="https://hfjministries.org" />
+	<meta property="og:title" content="Harvest For Jesus Ministries" />
+	<meta property="og:description" content="Harvest For Jesus Ministries." />
+	<title>Harvest For Jesus Ministries</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles/bootstrap.min.css" />
+	<script src="/scripts/jquery-3.4.1.slim.min.js"></script>
+	<script src="/scripts/popper.min.js"></script>
+	<script src="/scripts/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/styles/style.css" />
+	<link rel="stylesheet" href="/styles/icomoon/style.css" />
+	<script defer src="/scripts/vue.min.js"></script>
+	<script defer src="/scripts/script.js"></script>
 </head>
 
 <body>
-    <section id="hfj-site">
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">
-                <img src="/assets/logo.svg" alt="Harvest For Jesus Ministries">
-            </a>
-            <div id="sitename" class="d-none d-sm-block" v-if="lang === 'en'">Harvest For Jesus Ministries</div>
-            <div id="sitename" class="d-none d-sm-block" v-if="lang === 'ta'">இயேசுவுக்கு அறுவடை ஊழியங்கள்</div>
+	<section id="hfj-site">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="/">
+				<img src="/assets/logo.svg" alt="Harvest For Jesus Ministries">
+			</a>
+			<div id="sitename" class="d-none d-sm-block" v-if="lang === 'en'">Harvest For Jesus Ministries</div>
+			<div id="sitename" class="d-none d-sm-block" v-if="lang === 'ta'">இயேசுவுக்கு அறுவடை ஊழியங்கள்</div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/" v-if="lang === 'ta'">முகப்புப் பக்கம்</a>
-                        <a class="nav-link" href="/" v-if="lang === 'en'">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/testimonies.html" v-if="lang === 'ta'">சாட்சிகள்</a>
-                        <a class="nav-link" href="/testimonies.html" v-if="lang === 'en'">Testimonies</a>
-                    </li>
-                </ul>
-                <span class="navbar-text" id="langlinks">
-                    <a href="javascript:void(0)" v-bind:class="lang == 'ta' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('ta')">தமிழ்</a> |
-                    <a href="javascript:void(0)" v-bind:class="lang == 'en' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('en')">English</a>
-                </span>
-            </div>
-        </nav>
-        <br />
-        <main class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="accordion" id="testimonies">
-                        <div class="card" v-for="(testimony, i) in testimonies" v-bind:key="i">
-                            <div class="card-header" v-bind:id="testimony.id+'-link'">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" v-bind:data-target="'#'+testimony.id">
-                                        <span>{{testimony.title[lang]}}</span>
-                                    </button>
-                                </h2>
-                            </div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="/" v-if="lang === 'ta'">முகப்புப் பக்கம்</a>
+						<a class="nav-link" href="/" v-if="lang === 'en'">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="/testimonies.html" v-if="lang === 'ta'">சாட்சிகள்</a>
+						<a class="nav-link" href="/testimonies.html" v-if="lang === 'en'">Testimonies</a>
+					</li>
+				</ul>
+				<span class="navbar-text" id="langlinks">
+					<a href="javascript:void(0)" v-bind:class="lang == 'ta' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('ta')">தமிழ்</a> |
+					<a href="javascript:void(0)" v-bind:class="lang == 'en' ? 'font-weight-bold' : 'text-decoration-none'" v-on:click="setLang('en')">English</a>
+				</span>
+			</div>
+		</nav>
+		<br />
+		<main class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="accordion" id="testimonies">
+						<div class="card" v-for="(testimony, i) in testimonies" v-bind:key="i">
+							<div class="card-header" v-bind:id="testimony.id+'-link'">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" v-bind:data-target="'#'+testimony.id">
+										<span>{{testimony.title[lang]}}</span>
+									</button>
+								</h2>
+							</div>
 
-                            <div v-bind:id="testimony.id" class="collapse" data-parent="#testimonies">
-                                <div class="card-body">
-                                    <div class="media">
-                                        <div class="row">
-                                            <div class="col-md-2 col-sm-3 text-center"><img v-bind:src="'/photos/testimonies/'+testimony.photo" class="mr-3" v-bind:alt="testimony.id"></div>
-                                            <div class="media-body align-self-center col-md-10 col-sm-9" v-html="testimony.content[lang]"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="container">
-            <hr />
-            <div class="row">
-                <div class="col-md-9">
-                    &copy; 2020 Harvest for Jesus Ministries. All Rights Reserved.
-                </div>
-                <div id="socialicons" class="col-md-3 text-right">
-                    <a href="https://www.facebook.com/HFJCHURCH/" target="_blank"><span class="icon-facebook"></span></a>
-                    <a href="https://www.youtube.com/channel/UCt3MnMMw8g1g-JxXCQyCy6g" target="_blank"><span class="icon-youtube"></span></a>
-                </div>
-            </div>
-            <br />
-        </footer>
+							<div v-bind:id="testimony.id" class="collapse" data-parent="#testimonies">
+								<div class="card-body">
+									<div class="media">
+										<div class="row">
+											<div class="col-md-2 col-sm-3 text-center"><img v-bind:src="'/photos/testimonies/'+testimony.photo" class="mr-3" v-bind:alt="testimony.id" v-if="testimony.photo"></div>
+											<div class="media-body align-self-center col-md-10 col-sm-9" v-html="testimony.content[lang]"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container">
+			<hr />
+			<div class="row">
+				<div class="col-md-9">
+					&copy; 2020 Harvest for Jesus Ministries. All Rights Reserved.
+				</div>
+				<div id="socialicons" class="col-md-3 text-right">
+					<a href="https://www.facebook.com/HFJCHURCH/" target="_blank"><span class="icon-facebook"></span></a>
+					<a href="https://www.youtube.com/channel/UCt3MnMMw8g1g-JxXCQyCy6g" target="_blank"><span class="icon-youtube"></span></a>
+				</div>
+			</div>
+			<br />
+		</footer>
 
-    </section>
+	</section>
 </body>
 
 </html>
