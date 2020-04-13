@@ -68,6 +68,13 @@ const testimonies = [{
 
 const pastServices = [{
 	title: {
+		ta: "ஈஸ்டர் ஆராதனை",
+		en: "Easter service"
+	},
+	date: { en: "12 April 2020", ta: "12 ஏப்ரல் 2020" },
+	youtubeKey: "icOz8_zU9zI"
+}, {
+	title: {
 		ta: "புனித வெள்ளி ஆராதனை",
 		en: "Good friday service"
 	},
