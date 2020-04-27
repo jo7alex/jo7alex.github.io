@@ -71,6 +71,13 @@ const pastServices = [{
 		ta: "ஞாயிறு ஆராதனை",
 		en: "Sunday service"
 	},
+	date: { en: "27 April 2020", ta: "27 ஏப்ரல் 2020" },
+	youtubeKey: "_A_63VMPHc4"
+}, {
+	title: {
+		ta: "ஞாயிறு ஆராதனை",
+		en: "Sunday service"
+	},
 	date: { en: "19 April 2020", ta: "19 ஏப்ரல் 2020" },
 	youtubeKey: "hg_4cUn0iI0"
 }, {
@@ -94,13 +101,6 @@ const pastServices = [{
 	},
 	date: { en: "5 April 2020", ta: "5 ஏப்ரல் 2020" },
 	youtubeKey: "h5xlDmhiM5E"
-}, {
-	title: {
-		ta: "ஞாயிறு ஆராதனை",
-		en: "Sunday service"
-	},
-	date: { en: "29 March 2020", ta: "29 மார்ச் 2020" },
-	youtubeKey: "NK3jm9EJ3E0"
 }]
 
 const hfjLang = new Vue({
