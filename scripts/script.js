@@ -71,7 +71,7 @@ const pastServices = [{
 		ta: "ஞாயிறு ஆராதனை",
 		en: "Sunday service"
 	},
-	date: { en: "27 April 2020", ta: "27 ஏப்ரல் 2020" },
+	date: { en: "26 April 2020", ta: "26 ஏப்ரல் 2020" },
 	youtubeKey: "_A_63VMPHc4"
 }, {
 	title: {
