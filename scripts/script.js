@@ -1,18 +1,5 @@
 const testimonies = [
-  {
-    id: "testimony-jaason",
-    title: {
-      en: "Jaason - God has healed me from 3 years of sleeplessness - 2019",
-      ta: "ஜாஸன் - தேவன் 3 வருட தூக்கயின்மையிலிருந்து விடுதலை கொடுத்தார் - 2019",
-    },
-    photo: "jaason.jpeg",
-    content: {
-      en:
-        "My name is Jaason. I was suffering from sleeplessness for the past 3 years. I will start running and screaming suddenly in the night while sleeping. Days passed. My sickness got worse and I got depression. In between I started a fruit shop. I faced a heavy loss in that too. With no sleep, no peace I lost the meaning of my life. One day I was sitting in my house thinking about the pathetic situation. Suddenly I remembered the Gospel preached by the Pastor in my village sometime back. So myself and my mother went to Anandur church. There, the Pastor and his wife prayed for me with compassion. They gave some food. I haven’t taken any food for past few days due to my sickness. But after they prayed for me, I ate all the food they gave. And I slept for hours in the church itself. Praise God. I prayed to God with all my heart. Thus me and my mother got the Salvation of Christ. Now, I also got the anointing of the Holy Spirit. Praise be to the name of Jesus.",
-      ta:
-        "என் பெயர் ஜாசன். நான் 3 ஆண்டுகளுக்கு முன் இரவு தூங்க முடியாமல் மிகவும் அவதிப்பட்டேன். இரவு தூங்கும்போது திடிரென்று அலரிக்கொண்டு ஓடுவேன். நாட்கள் செல்ல செல்ல நான் தூங்காமல், எனக்கு மன அழுத்தம் வர துவங்கியது. இதன் இடையில் நான் ஒரு பழக்கடை வியாபாரம் ஆரம்பித்தேன். அதிலும் பெரிய நஷ்டம் ஏற்பட்டது. நான் தூக்கம் இல்லாதவனாய் மன நிம்மதி இழந்தவனாய் பித்து பிடித்தவனாய் வீட்டின் முன் அமர்ந்து இருக்கும் போது, ஒரு நாள் போதகர். பெஞ்சமின் எங்கள் ஊரில் வந்து இயேசு எல்லா பிரச்சனைகளில் இருந்தும் விடுதலை தருவார் என்று சொன்னது நினைவு வந்தது. உடனே என் தாயைக் கூட்டிக் கொண்டு, ஆனந்தூர் ஆலயத்திற்குச் சென்றேன். அங்கு போதகர் மற்றும் அவர் துணைவியார் எனக்காக ஜெபித்தார்கள். உடனே பல நாட்களாக சாப்பிட முடியாமல் இருந்த நான், நன்றாக சாப்பிட்டேன், நன்றாக தூங்கினேன். இயேசுவிடம் மனம் திறந்து பேசினேன். அவர் என் உள்ளத்தில் வந்தார். நானும் என் தாயாரும் இரட்ச்சிப்பைப் பெற்றுக் கொண்டோம். இப்போது நான் வேலை செய்கிறேன். பரிசுத்த ஆவியின் அபிஷேகத்தையும் அந்நிய பாஷை அடையாளத்தோடுப் பெற்றுக் கொண்டேன். தேவனுக்கே மகிமை உண்டாகட்டும்.",
-    },
-  },
+
   {
     id: "testimony-mosesponsingh",
     title: {
@@ -88,6 +75,15 @@ const testimonies = [
 ];
 
 const pastServices = [
+ 
+ {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "17 May 2020", ta: "17 மே 2020" },
+    youtubeKey: "KgXpdzK5SUw",
+  },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
@@ -120,14 +116,7 @@ const pastServices = [
     date: { en: "19 April 2020", ta: "19 ஏப்ரல் 2020" },
     youtubeKey: "hg_4cUn0iI0",
   },
-  {
-    title: {
-      ta: "ஈஸ்டர் ஆராதனை",
-      en: "Easter service",
-    },
-    date: { en: "12 April 2020", ta: "12 ஏப்ரல் 2020" },
-    youtubeKey: "icOz8_zU9zI",
-  },
+  
 ];
 
 const hfjLang = new Vue({
