@@ -117,7 +117,6 @@ const pastServices = [
     youtubeKey: "_A_63VMPHc4",
   },
   
-  
 ];
 
 const hfjLang = new Vue({
