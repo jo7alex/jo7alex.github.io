@@ -81,6 +81,22 @@ const pastServices = [
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
+    date: { en: "6 September 2020", ta: "6 செப்டம்பர் 2020" },
+    youtubeKey: "sJdT2pFU27A",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "30 August 2020", ta: "30 ஆகஸ்ட் 2020" },
+    youtubeKey: "SiEueCshtvU",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
     date: { en: "23 August 2020", ta: "23 ஆகஸ்ட் 2020" },
     youtubeKey: "p-XFDR7ND8A",
   },
@@ -99,22 +115,6 @@ const pastServices = [
     },
     date: { en: "9 August 2020", ta: "9 ஆகஸ்ட் 2020" },
     youtubeKey: "cW2-wyg7v5g",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "2 August 2020", ta: "2 ஆகஸ்ட் 2020" },
-    youtubeKey: "23e22V7rxrM",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "26 July 2020", ta: "26 ஜூலை 2020" },
-    youtubeKey: "ZFdZNmlRhSM",
   },
   
 ];
