@@ -78,6 +78,14 @@ const pastServices = [
  
  {
     title: {
+      ta: "கிறிஸ்துமஸ் ஆராதனை",
+      en: "Christmas service",
+    },
+    date: { en: "25 December 2020", ta: "25 டிசம்பர் 2020" },
+    youtubeKey: "igo4SqGk-Wk",
+  },
+  {
+    title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
@@ -107,14 +115,6 @@ const pastServices = [
     },
     date: { en: "29 November 2020", ta: "29 நவம்பர் 2020" },
     youtubeKey: "P3vGmSJ8AbQ",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "22 November 2020", ta: "18 நவம்பர் 2020" },
-    youtubeKey: "6QFNc-U1vC8",
   },
   
 ];
