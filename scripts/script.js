@@ -78,6 +78,22 @@ const pastServices = [
  
  {
     title: {
+      ta: "புது வருட ஆராதனை",
+      en: "New Year service",
+    },
+    date: { en: "1 January 2021", ta: "1 ஜனவரி 2021" },
+    youtubeKey: "tN_BBzcRiVc",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "27 December 2020", ta: "27 டிசம்பர் 2020" },
+    youtubeKey: "9ljFNp98j-A",
+  },
+  {
+    title: {
       ta: "கிறிஸ்துமஸ் ஆராதனை",
       en: "Christmas service",
     },
@@ -99,22 +115,6 @@ const pastServices = [
     },
     date: { en: "13 December 2020", ta: "13 டிசம்பர் 2020" },
     youtubeKey: "l8CvDDZmKI8",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "6 December 2020", ta: "6 டிசம்பர் 2020" },
-    youtubeKey: "172m7ZSNzio",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "29 November 2020", ta: "29 நவம்பர் 2020" },
-    youtubeKey: "P3vGmSJ8AbQ",
   },
   
 ];
