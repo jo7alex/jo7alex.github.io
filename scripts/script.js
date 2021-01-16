@@ -78,6 +78,14 @@ const pastServices = [
  
  {
     title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "3 January 2021", ta: "3 ஜனவரி 2021" },
+    youtubeKey: "NqmpsKdJCwE",
+  },
+  {
+    title: {
       ta: "புது வருட ஆராதனை",
       en: "New Year service",
     },
@@ -107,14 +115,6 @@ const pastServices = [
     },
     date: { en: "20 December 2020", ta: "20 டிசம்பர் 2020" },
     youtubeKey: "ofh6a9RR8Iw",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "13 December 2020", ta: "13 டிசம்பர் 2020" },
-    youtubeKey: "l8CvDDZmKI8",
   },
   
 ];
