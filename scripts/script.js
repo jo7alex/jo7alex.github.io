@@ -78,6 +78,30 @@ const pastServices = [
  
  {
     title: {
+      ta: "புனித வெள்ளி ஆராதனை",
+      en: "Good Friday service",
+    },
+    date: { en: "2 April 2021", ta: "2 ஏப்ரல் 2021" },
+    youtubeKey: "bQZeqdjpNUw",
+  },
+  {
+    title: {
+      ta: "புனித வியாழன் ஆராதனை",
+      en: "Maundy Thursday service",
+    },
+    date: { en: "1 April 2021", ta: "1 ஏப்ரல் 2021" },
+    youtubeKey: "tSrzzovgX_U",
+  },
+  {
+    title: {
+      ta: "குருத்தோலை ஞாயிறு ஆராதனை",
+      en: "Palm Sunday service",
+    },
+    date: { en: "28 March 2021", ta: "28 மார்ச் 2021" },
+    youtubeKey: "aaUYbiDqQvY",
+  },
+  {
+    title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
@@ -91,30 +115,6 @@ const pastServices = [
     },
     date: { en: "14 March 2021", ta: "14 மார்ச் 2021" },
     youtubeKey: "DdWKXHvQMRg",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "7 March 2021", ta: "7 மார்ச் 2021" },
-    youtubeKey: "3Bj_jD2iVn4",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "28 February 2021", ta: "28 பிப்ரவரி 2021" },
-    youtubeKey: "KB6Xm68FvBg",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "21 February 2021", ta: "21 பிப்ரவரி 2021" },
-    youtubeKey: "19d1-an0uGI",
   },
   
 ];
