@@ -81,6 +81,14 @@ const pastServices = [
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
+    date: { en: "18 April 2021", ta: "18 ஏப்ரல் 2021" },
+    youtubeKey: "Rq0pPbEPyho",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
     date: { en: "11 April 2021", ta: "11 ஏப்ரல் 2021" },
     youtubeKey: "o9zvF92S2ww",
   },
@@ -107,14 +115,6 @@ const pastServices = [
     },
     date: { en: "1 April 2021", ta: "1 ஏப்ரல் 2021" },
     youtubeKey: "tSrzzovgX_U",
-  },
-  {
-    title: {
-      ta: "குருத்தோலை ஞாயிறு ஆராதனை",
-      en: "Palm Sunday service",
-    },
-    date: { en: "28 March 2021", ta: "28 மார்ச் 2021" },
-    youtubeKey: "aaUYbiDqQvY",
   },
   
 ];
