@@ -81,6 +81,14 @@ const pastServices = [
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
+    date: { en: "25 July 2021", ta: "25 ஜூலை 2021" },
+    youtubeKey: "LQtH8Y6bt84",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
     date: { en: "18 July 2021", ta: "18 ஜூலை 2021" },
     youtubeKey: "6Or9gJbxi3M",
   },
@@ -107,14 +115,6 @@ const pastServices = [
     },
     date: { en: "27 June 2021", ta: "27 ஜூன் 2021" },
     youtubeKey: "Lgoktmd8JOk",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "20 June 2021", ta: "20 ஜூன் 2021" },
-    youtubeKey: "0f3v64MhUSc",
   },
   
 ];
