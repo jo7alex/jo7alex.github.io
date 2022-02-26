@@ -76,6 +76,14 @@ const testimonies = [
 
 const pastServices = [
  
+    {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "13 February 2022", ta: "13 பிப்ரவரி 2022" },
+    youtubeKey: "hR3I-H-T1ew",
+  },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
@@ -115,14 +123,6 @@ const pastServices = [
     },
     date: { en: "9 January 2022", ta: "9 ஜனவரி 2022" },
     youtubeKey: "dGnKztV7cdE",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "2 January 2022", ta: "2 ஜனவரி 2022" },
-    youtubeKey: "5QaZo4oUwGY",
   },
   
 ];
