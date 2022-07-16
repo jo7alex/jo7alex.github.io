@@ -81,6 +81,14 @@ const pastServices = [
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
+    date: { en: "3 July 2022", ta: "3 ஜூலை 2022" },
+    youtubeKey: "tBbGKb-AtaI",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
     date: { en: "26 June 2022", ta: "26 ஜூன் 2022" },
     youtubeKey: "s0br6VrKlvs",
   },
@@ -108,22 +116,7 @@ const pastServices = [
     date: { en: "5 June 2022", ta: "5 ஜூன் 2022" },
     youtubeKey: "AiyzbTgTUPI",
   },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "29 May 2022", ta: "29 மே 2022" },
-    youtubeKey: "5nvsVuGZ_wo",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "22 May 2022", ta: "22 மே 2022" },
-    youtubeKey: "XqzmwwQ1mSM",
-  },
+ 
 ];
 
 const hfjLang = new Vue({
