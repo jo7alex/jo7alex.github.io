@@ -76,6 +76,22 @@ const testimonies = [
 
 const pastServices = [
  
+    {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "1 August 2022", ta: "1 ஆகஸ்ட் 2022" },
+    youtubeKey: "pPrUzcfrzPc",
+  },
+  {
+    title: {
+      ta: "ஞாயிறு ஆராதனை",
+      en: "Sunday service",
+    },
+    date: { en: "31 July 2022", ta: "31 ஜூலை 2022" },
+    youtubeKey: "eGuDRvx-128",
+  },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
@@ -99,22 +115,6 @@ const pastServices = [
     },
     date: { en: "10 July 2022", ta: "10 ஜூலை 2022" },
     youtubeKey: "OCFplspjfM0",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "3 July 2022", ta: "3 ஜூலை 2022" },
-    youtubeKey: "tBbGKb-AtaI",
-  },
-  {
-    title: {
-      ta: "ஞாயிறு ஆராதனை",
-      en: "Sunday service",
-    },
-    date: { en: "26 June 2022", ta: "26 ஜூன் 2022" },
-    youtubeKey: "s0br6VrKlvs",
   },
  
 ];
