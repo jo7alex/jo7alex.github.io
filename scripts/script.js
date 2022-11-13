@@ -81,40 +81,40 @@ const pastServices = [
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
-    date: { en: "1 August 2022", ta: "1 ஆகஸ்ட் 2022" },
-    youtubeKey: "pPrUzcfrzPc",
+    date: { en: "23 October 2022", ta: "23 அக்டோபர் 2022" },
+    youtubeKey: "k12U3kLIlqs",
   },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
-    date: { en: "31 July 2022", ta: "31 ஜூலை 2022" },
-    youtubeKey: "eGuDRvx-128",
+    date: { en: "16 October 2022", ta: "16 அக்டோபர் 2022" },
+    youtubeKey: "ZXgeYN3Mmy0",
   },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
-    date: { en: "24 July 2022", ta: "24 ஜூலை 2022" },
-    youtubeKey: "Wc5QNMZHRpY",
+    date: { en: "9 October 2022", ta: "9 அக்டோபர் 2022" },
+    youtubeKey: "NKaWX_AQyZ8",
   },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
-    date: { en: "17 July 2022", ta: "17 ஜூலை 2022" },
-    youtubeKey: "w-idpbefeeI",
+    date: { en: "2 October 2022", ta: "2 அக்டோபர் 2022" },
+    youtubeKey: "08q4LjqX_wo",
   },
   {
     title: {
       ta: "ஞாயிறு ஆராதனை",
       en: "Sunday service",
     },
-    date: { en: "10 July 2022", ta: "10 ஜூலை 2022" },
-    youtubeKey: "OCFplspjfM0",
+    date: { en: "25 September 2022", ta: "25 செப்டம்பர் 2022" },
+    youtubeKey: "2lIay6anq1A",
   },
  
 ];
