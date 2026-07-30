@@ -40,6 +40,8 @@ The post then shows up automatically on your home page, newest first.
 > https://github.com/<your-username>/<your-username>.github.io/new/main?filename=_posts%2F2026-07-30-new-post.md&value=---%0Alayout%3A%20post%0Atitle%3A%20%22Your%20post%20title%22%0Adate%3A%202026-07-30%2016%3A55%3A29%20%2B0000%0Atags%3A%20%5B%5D%0A---%0A%0A%23%20Your%20post%20title%0A%0AWrite%20your%20post%20here%20using%20**Markdown**.%20This%20first%20line%20is%20the%20heading%20shown%20on%20the%20page.%0A
 > ```
 
+[Create new post](https://github.com/jo7alex/jo7alex.github.io/new/main?filename=_posts%2F2026-07-30-new-post.md&value=---%0Alayout%3A%20post%0Atitle%3A%20%22Your%20post%20title%22%0Adate%3A%202026-07-30%2016%3A55%3A29%20%2B0000%0Atags%3A%20%5B%5D%0A---%0A%0A%23%20Your%20post%20title%0A%0AWrite%20your%20post%20here%20using%20**Markdown**.%20This%20first%20line%20is%20the%20heading%20shown%20on%20the%20page.%0A)
+
 ## Add a new page
 
 Create a Markdown file in the top-level folder (next to `index.html`), named after
