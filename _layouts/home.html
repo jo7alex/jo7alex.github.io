@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section>
+  {% if site.posts.size == 0 %}
+  <div class="empty">No posts to show.</div>
+  {% else %}
+  {% for post in site.posts %}
+  <article>
+    <div class="content">{{ post.content }}</div>
+    <small>
+      <a href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </a>
+    </small>
+  </article>
+  {% endfor %}
+  {% endif %}
+</section>

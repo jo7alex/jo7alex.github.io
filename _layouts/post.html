@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article>
+  <div class="content">{{ content }}</div>
+  <div class="spacer"></div>
+  <small>
+    Posted on
+    <time datetime="{{ page.date | date_to_xmlschema }}"><em>{{ page.date | date: "%b %-d, %Y" }}</em></time>
+  </small>
+</article>
