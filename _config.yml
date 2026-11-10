@@ -1,0 +1,49 @@
+title: "Joanna Vasanth"
+author: "Joanna Vasanth"
+description: >-
+  
+
+url: "https://blog.joannavasanth.com"
+baseurl: ""
+
+permalink: /post/:title/
+
+excerpt_separator: "<!--more-->"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+
+feed:
+  path: feed.xml
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag
+  permalinks:
+    tag: /posts/tag/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github
